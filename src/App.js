@@ -40,6 +40,9 @@ function App() {
                 >
                     Custom Heading
                 </Typography>
+                <Alert icon={<CheckIcon fontSize="inherit" />} severity="success">
+                    Here is a gentle confirmation that your action was successful.
+                </Alert>
             </Box>
         </div>
     );
